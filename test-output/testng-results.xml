@@ -2,15 +2,15 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-07T17:26:15Z" name="Default suite" finished-at="2024-05-07T17:26:35Z" duration-ms="20504">
+  <suite started-at="2024-05-14T17:22:30Z" name="Default suite" finished-at="2024-05-14T17:22:31Z" duration-ms="714">
     <groups>
     </groups>
-    <test started-at="2024-05-07T17:26:15Z" name="Default test" finished-at="2024-05-07T17:26:35Z" duration-ms="20504">
+    <test started-at="2024-05-14T17:22:30Z" name="Default test" finished-at="2024-05-14T17:22:31Z" duration-ms="714">
       <class name="LearnTestNG.LearnPOM">
-        <test-method signature="testAutomationPracticeBlogspot()[pri:0, instance:LearnTestNG.LearnPOM@345f69f3]" started-at="2024-05-07T22:56:15Z" name="testAutomationPracticeBlogspot" finished-at="2024-05-07T22:56:35Z" duration-ms="20483" status="PASS">
+        <test-method signature="readExcelData()[pri:0, instance:LearnTestNG.LearnPOM@457c9034]" started-at="2024-05-14T22:52:30Z" name="readExcelData" finished-at="2024-05-14T22:52:31Z" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAutomationPracticeBlogspot -->
+        </test-method> <!-- readExcelData -->
       </class> <!-- LearnTestNG.LearnPOM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

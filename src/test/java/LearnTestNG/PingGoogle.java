@@ -22,7 +22,7 @@ public class PingGoogle {
 		System.setProperty("webdriver.chrome.driver", "./src\\test\\resources\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		ReadConfig rc = new ReadConfig("./src\\test\\java\\ConfigurationFiles\\config.properties");
+		ReadConfig rc = new ReadConfig("./src\\test\\resources\\ConfigurationFiles\\config.properties");
 		driver.get(rc.getValue("baseurl"));
 		
 		AShot ashot = new AShot();

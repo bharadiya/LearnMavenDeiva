@@ -27,5 +27,15 @@ public class HomePage {
 	public void setEmail(String mailID) {
 		email.sendKeys(mailID);
 	}
+	
+	public boolean isNameDisplayed()
+	{
+		return name.isDisplayed();
+	}
+	
+	public boolean isEmailDisplayed()
+	{
+		return email.isDisplayed();
+	}
 }
 //- every particular webelement of that particular page will be placed inside this class
