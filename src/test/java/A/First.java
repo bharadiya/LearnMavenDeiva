@@ -3,12 +3,12 @@ package A;
 import org.testng.annotations.Test;
 
 public class First {
-	@Test
+	@Test(groups = { "regression" })	
 	public void m1() {
 		System.out.println("m1");
 	}
 
-	@Test
+	@Test(groups = { "regression" })
 	public void m2() {
 		System.out.println("m2");
 	}

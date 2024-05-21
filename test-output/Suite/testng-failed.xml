@@ -3,7 +3,7 @@
 <suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="LearnTestNG.LearnPOM"/>
+      <class name="A.LearnAnnotations"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

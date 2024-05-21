@@ -37,5 +37,11 @@ public class HomePage {
 	{
 		return email.isDisplayed();
 	}
+	
+	public boolean isElementDisplayed(WebElement e)
+	{
+		return e.isDisplayed();
+	}
+	
 }
 //- every particular webelement of that particular page will be placed inside this class
